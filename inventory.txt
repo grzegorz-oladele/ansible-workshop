@@ -17,4 +17,3 @@ serwer-2
 [curl]
 serwer-2
 serwer-3
-

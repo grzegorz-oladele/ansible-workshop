@@ -1,0 +1,9 @@
+-
+  hosts: test
+  become: yes
+  tasks:
+    - name: Pasjans installation
+      apt:
+        name: aisleriot
+        state: latest
+        update_cache: yes

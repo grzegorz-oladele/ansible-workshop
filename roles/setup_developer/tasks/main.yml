@@ -1,0 +1,51 @@
+---
+#    - name: Installing git
+#      apt:
+#        name: git
+#        update_cache: yes
+#
+#    - name: Installing Openjdk
+#      apt:
+#        name: default-jdk
+#        update_cache: yes
+#
+#    - name: Installing Maven
+#      apt:
+#        name: maven
+#        update_cache: yes
+#
+#    - name: Installing docker
+#      apt:
+#        name: docker.io
+#        update_cache: yes
+#
+#    - name: Restart docker
+#      shell:
+#        cmd: sudo systemctl restart docker
+#        executable: /bin/bash
+#
+#    - name: chmod
+#      shell:
+#        cmd: sudo chmod 666 /var/run/docker.sock
+#        executable: /bin/bash
+#
+#    - name: Pulling nginx image
+#      shell:
+#        cmd: docker pull nginx:latest
+#        executable: "{{ shebang }}"
+#
+#    - name: Execute nginx image
+#      shell:
+#        cmd: docker run -d -p 80:80 --name=nginx-test-1 nginx
+#        executable: "{{ shebang }}"
+
+
+#  TASKS:
+#  Using async in last task
+#  Using if syntax when java project directory exist
+#  Using if syntax when nginx image exist
+    - name: Pulling a simple java app from github
+      command: chdir="{{ desktop }}" git clone "{{ repo }}"
+
+    - name: Running a simple java app
+      command: chdir="{{ project_directory }}" mvn spring-boot:run
