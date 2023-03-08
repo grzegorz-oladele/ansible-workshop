@@ -1,0 +1,10 @@
+-
+  hosts: aisleriot
+  tasks:
+    - name: Pasjans installation
+      become: yes
+      apt:
+        force_apt_get: yes
+        state: latest
+        update_cache: yes
+        name: aisleriot

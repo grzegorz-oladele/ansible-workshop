@@ -1,0 +1,20 @@
+serwer-1 ansible_host=serwer-1@192.168.67.4 ansible_ssh_pass=linux2022 ansible_sudo_pass=linux2022
+serwer-2 ansible_host=serwer-2@192.168.67.5 ansible_ssh_pass=linux2022 ansible_sudo_pass=linux2022
+serwer-3 ansible_host=serwer-3@192.168.67.6 ansible_ssh_pass=linux2022 ansible_sudo_pass=linux2022
+
+[test]
+serwer-1
+
+[aisleriot]
+serwer-1
+serwer-2
+serwer-3
+
+[git]
+serwer-1
+serwer-2
+
+[curl]
+serwer-2
+serwer-3
+
