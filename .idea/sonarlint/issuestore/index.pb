@@ -1,7 +1,13 @@
 
-Q
-!simple_playbooks/git-playbook.yml,1/1/11ba0624498ae179e8dc84c5f6132f1a56c8b871
 R
 "simple_playbooks/curl-playbook.yml,3/8/3831654e3a03d119a0fead6eb22d329a98cec85d
-;
-ansible.cfg,0/5/0555b8c9571aea7570a60e5e5ac624579a8248b9
+W
+'simple_playbooks/aisleriot-playbook.yml,b/9/b9e339da878fd1d39e04aa385d8ac28f6fa2c5ef
+O
+roles/setup_developer/README.md,c/0/c0d453e3951e51fcf362b4268d2b7c6c9187ccd0
+A
+java-playbook.yml,a/f/af196b106507a6033ccf1e5a72d89ccef8b943ae
+W
+'roles/setup_developer/defaults/main.yml,4/b/4bfb620e067f1b7bb5e2612bc576dc664323c4e0
+S
+#roles/setup_developer/meta/main.yml,5/2/524273727f5e6d4f529c7f4ba2b2c7cf5af46b27

@@ -5,12 +5,12 @@ serwer-3 ansible_host=serwer-3@192.168.67.6 ansible_ssh_pass=linux2022 ansible_s
 [test]
 serwer-1
 
-[aisleriot]
+[all]
 serwer-1
 serwer-2
 serwer-3
 
-[git]
+[aisleriot]
 serwer-1
 serwer-2
 
