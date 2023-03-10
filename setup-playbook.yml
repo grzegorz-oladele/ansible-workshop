@@ -1,0 +1,7 @@
+- name: Setup the software on a local machine for a new developer
+  hosts: test
+  vars_files:
+    - "roles/setup_developer/vars/main.yml"
+  become: yes
+  roles:
+    - setup_developer

@@ -1,6 +1,4 @@
 
-R
-"simple_playbooks/curl-playbook.yml,3/8/3831654e3a03d119a0fead6eb22d329a98cec85d
 W
 'simple_playbooks/aisleriot-playbook.yml,b/9/b9e339da878fd1d39e04aa385d8ac28f6fa2c5ef
 O
